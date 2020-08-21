@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MyBatis02" />
         <module name="MyBatis01" />
+        <module name="MyBatis03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="MyBatis01" target="8" />
       <module name="MyBatis02" target="8" />
+      <module name="MyBatis03" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
