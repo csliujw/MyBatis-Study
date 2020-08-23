@@ -39,8 +39,6 @@ public class TestRole {
 
     /**
      * 多对多查询
-     *
-     * @throws IOException
      */
     @Test
     public void testRoleMulti() {
