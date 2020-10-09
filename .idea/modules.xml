@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaEE.iml" filepath="$PROJECT_DIR$/.idea/JavaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyBatis-Study.iml" filepath="$PROJECT_DIR$/.idea/MyBatis-Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis01/MyBatis01.iml" filepath="$PROJECT_DIR$/MyBatis01/MyBatis01.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis02/MyBatis02.iml" filepath="$PROJECT_DIR$/MyBatis02/MyBatis02.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis03/MyBatis03.iml" filepath="$PROJECT_DIR$/MyBatis03/MyBatis03.iml" />

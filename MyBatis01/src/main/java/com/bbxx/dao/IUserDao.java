@@ -8,4 +8,5 @@ import java.util.List;
 public interface IUserDao {
     List<UserVO> findAll();
 
+    List<UserVO> findByCondition(UserVO vo);
 }
