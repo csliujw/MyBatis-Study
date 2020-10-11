@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/MyBatis03/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis04/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis05/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring01/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaSE/pom.xml" />
       </list>
     </option>
   </component>

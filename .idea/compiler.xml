@@ -7,19 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JavaSE" />
         <module name="MyBatis05" />
+        <module name="Spring01" />
+        <module name="JDBC" />
         <module name="MyBatis02" />
         <module name="MyBatis01" />
+        <module name="JavaWeb" />
         <module name="MyBatis04" />
         <module name="MyBatis03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="JavaSE" target="1.7" />
+      <module name="JavaWeb" target="1.7" />
+      <module name="JDBC" target="1.7" />
       <module name="MyBatis01" target="8" />
       <module name="MyBatis02" target="8" />
       <module name="MyBatis03" target="8" />
       <module name="MyBatis04" target="8" />
       <module name="MyBatis05" target="8" />
+      <module name="Spring01" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
