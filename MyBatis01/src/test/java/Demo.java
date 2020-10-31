@@ -58,7 +58,6 @@ public class Demo {
         }
         // 遍历查询到的数据
         all.stream().forEach(System.out::println);
-
         // 条件查询
         UserVO userVO = new UserVO();
         userVO.setId(2);

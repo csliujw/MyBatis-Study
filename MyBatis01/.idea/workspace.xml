@@ -23,44 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b0680cf-19cd-48d6-b1a5-c49cf446773b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0b1e35ea-4fe3-4257-89d8-8310f102aebd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0b1e35ea-4fe3-4257-89d8-8310f102aebd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cb44bb6c-f5ae-4fca-a986-10d8e0b17629.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cb44bb6c-f5ae-4fca-a986-10d8e0b17629/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bbxx/utils/ConnectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SqlConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bbxx/dao/IUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bbxx/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bbxx/pojo/UserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bbxx/utils/ConnectUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/JavaEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/MyBatis-Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bbxx/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bbxx/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/bbxx/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/bbxx/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/artifacts/demos_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/free-mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/src/com/jxlg/jsp/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,17 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Demo.fn1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis01" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602249636500</updated>
       <workItem from="1602249637541" duration="1960000" />
+      <workItem from="1603121473318" duration="260000" />
     </task>
     <servers />
   </component>
@@ -176,6 +143,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602249850346">
@@ -198,6 +166,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602251599111" />
+    <state x="437" y="192" key="IDE.errors.dialog" timestamp="1603121597692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="437" y="192" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603121597692" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1602250730069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

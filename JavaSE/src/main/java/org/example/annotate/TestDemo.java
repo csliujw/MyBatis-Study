@@ -1,7 +1,5 @@
 package org.example.annotate;
 
-import org.junit.jupiter.api.Test;
-
 import java.lang.reflect.Field;
 
 public class TestDemo {
