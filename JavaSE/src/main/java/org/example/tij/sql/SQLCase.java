@@ -1,5 +1,8 @@
 package org.example.tij.sql;
 
+/**
+ * 数据库表实体类。
+ */
 @DBTable(name = "SQLCase")
 public class SQLCase {
 

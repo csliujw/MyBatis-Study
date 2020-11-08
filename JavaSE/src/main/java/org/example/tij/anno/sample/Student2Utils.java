@@ -1,4 +1,5 @@
-package org.example.video.annotate.demo;
+package org.example.tij.anno.sample;
+
 
 import java.lang.reflect.Field;
 
@@ -69,5 +70,4 @@ public class Student2Utils {
         }
         return null;
     }
-
 }

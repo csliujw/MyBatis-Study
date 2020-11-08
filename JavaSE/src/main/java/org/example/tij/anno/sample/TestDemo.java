@@ -1,4 +1,4 @@
-package org.example.video.annotate;
+package org.example.tij.anno.sample;
 
 import java.lang.reflect.Field;
 

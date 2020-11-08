@@ -6,19 +6,7 @@ import java.util.ArrayList;
 
 
 @SuppressWarnings("all")
-@DBTable(name = "SQLCase")
 public class SQLBuilder {
-    @SQLString(30)
-    String firstName;
-
-    @SQLString(60)
-    String lastName;
-
-    @SQLInteger
-    Integer age;
-
-    @SQLString(value = 120, constraints = @Constraints(primaryKey = true))
-    String handle;
 
     /**
      * 获取要生成的表的名称
@@ -59,7 +47,7 @@ public class SQLBuilder {
                 }
                 int length = tmp.value();
                 String constraints = getConstraints(tmp.constraints());
-                StringBuilder append = new StringBuilder().append(columnName)
+                StringBuilder append = new StringBuilder().append("\t").append(columnName)
                         .append(" VARCHAR(")
                         .append(length)
                         .append(")")
@@ -74,7 +62,7 @@ public class SQLBuilder {
                     columnName = field.getName();
                 }
                 String constraints = getConstraints(tmp.constraints());
-                StringBuilder append = new StringBuilder().append(columnName)
+                StringBuilder append = new StringBuilder().append("\t").append(columnName)
                         .append(" INT ")
                         .append(constraints);
                 columnDefs.add(append.toString());
@@ -116,7 +104,7 @@ public class SQLBuilder {
     public static void main(String[] args) throws ClassNotFoundException {
         SQLBuilder sqlBuilder = new SQLBuilder();
         SQLCase sqlCase = new SQLCase();
-        String createSQL = sqlBuilder.getCreateSQL("org.example.video.annotate.TIJ.sql.SQLCase");
-        System.out.println(sqlBuilder.getCreateSQL("org.example.video.annotate.TIJ.sql.SQLCase"));
+        String createSQL = sqlBuilder.getCreateSQL("org.example.tij.sql.SQLCase");
+        System.out.println(sqlBuilder.getCreateSQL("org.example.tij.sql.SQLCase"));
     }
 }

@@ -1,4 +1,4 @@
-package org.example.video.annotate.TIJ;
+package org.example.tij.anno.sample;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

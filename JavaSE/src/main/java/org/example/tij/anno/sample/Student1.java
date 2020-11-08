@@ -1,4 +1,5 @@
-package org.example.video.annotate.demo;
+package org.example.tij.anno.sample;
+
 
 import java.lang.reflect.Field;
 
@@ -8,7 +9,7 @@ import java.lang.reflect.Field;
 @NotNull
 public class Student1 {
 
-//    @Length(min = 2, max = 10, message = "are you ok??")
+    //    @Length(min = 2, max = 10, message = "are you ok??")
     @NotNull(message = "null point")
     @NotEmpty(message = "no value")
     public String name;
@@ -54,5 +55,4 @@ public class Student1 {
         }
         return null;
     }
-
 }

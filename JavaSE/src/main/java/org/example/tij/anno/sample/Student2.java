@@ -1,4 +1,5 @@
-package org.example.video.annotate.demo;
+package org.example.tij.anno.sample;
+
 
 public class Student2 {
 
@@ -14,6 +15,4 @@ public class Student2 {
         System.err.println(Student2Utils.validateNotNull(student));
         System.err.println(Student2Utils.validateNotEmpty(student));
     }
-
-
 }

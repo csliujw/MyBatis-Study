@@ -1,14 +1,14 @@
-package org.example.video.annotate.TIJ.sql;
+package org.example.tij.anno.sample;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.FIELD)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface SQLInteger {
-    String name() default "";
+public @interface UseCase {
+    int id();
 
-    Constraints constraints() default @Constraints;
+    String description() default "no description";
 }
