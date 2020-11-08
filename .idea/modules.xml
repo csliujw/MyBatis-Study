@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyBatis04/MyBatis04.iml" filepath="$PROJECT_DIR$/MyBatis04/MyBatis04.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis05/MyBatis05.iml" filepath="$PROJECT_DIR$/MyBatis05/MyBatis05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring01/Spring01.iml" filepath="$PROJECT_DIR$/Spring01/Spring01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
     </modules>
   </component>
 </project>

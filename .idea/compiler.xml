@@ -10,6 +10,7 @@
         <module name="JavaSE" />
         <module name="MyBatis05" />
         <module name="Spring01" />
+        <module name="Tomcat" />
         <module name="JDBC" />
         <module name="MyBatis02" />
         <module name="MyBatis01" />
@@ -28,6 +29,7 @@
       <module name="MyBatis04" target="8" />
       <module name="MyBatis05" target="8" />
       <module name="Spring01" target="1.7" />
+      <module name="Tomcat" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
