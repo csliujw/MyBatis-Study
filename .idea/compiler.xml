@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="JavaSE" target="10" />
+      <module name="JavaSE" target="11" />
       <module name="JavaWeb" target="1.7" />
       <module name="JDBC" target="1.7" />
       <module name="MyBatis01" target="8" />
