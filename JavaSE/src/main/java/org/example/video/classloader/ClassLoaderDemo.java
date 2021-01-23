@@ -6,6 +6,8 @@ import java.lang.reflect.Method;
 
 /**
  * 类加载器学习
+ * 自定义类加载器，用自己的加载器加载class文件，不用jdk提供的那些加载器。
+ * 自定义类加载器可以自己做一些额外的事情，如：解密发送过来的字节码，解密后再把字节码转成byte[] 进行加载。
  */
 // 注意maven中的单元测试只能写在 test下面！
 public class ClassLoaderDemo extends ClassLoader {

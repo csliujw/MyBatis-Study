@@ -74,7 +74,7 @@ public class AlogDemo2 {
         AlogDemo2.initCitiesWeight(weight);
         AlogDemo2.initCityAndPath(cityNumber);
         AlogDemo2.startCity = 2;
-        travel(1, 2);
+        travel(4, 2);
         AlogDemo2.printBestLength();
         AlogDemo2.printRoute();
     }
