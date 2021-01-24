@@ -1,7 +1,7 @@
 package org.example.assembly;
 
 
-import org.example.configuration.assembly.MainConfiguration;
+import org.example.configuration.ioc.assembly.MainConfiguration;
 import org.example.pojo.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

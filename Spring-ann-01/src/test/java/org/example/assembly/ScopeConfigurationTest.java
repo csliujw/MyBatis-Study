@@ -1,6 +1,6 @@
 package org.example.assembly;
 
-import org.example.configuration.assembly.ScopeConfiguration;
+import org.example.configuration.ioc.assembly.ScopeConfiguration;
 import org.example.pojo.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;

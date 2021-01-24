@@ -1,4 +1,4 @@
-package org.example.configuration.assembly;
+package org.example.configuration.ioc.assembly;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

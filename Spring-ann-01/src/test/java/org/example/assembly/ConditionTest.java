@@ -1,6 +1,6 @@
 package org.example.assembly;
 
-import org.example.configuration.assembly.ConditionConfiguration;
+import org.example.configuration.ioc.assembly.ConditionConfiguration;
 import org.example.pojo.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;

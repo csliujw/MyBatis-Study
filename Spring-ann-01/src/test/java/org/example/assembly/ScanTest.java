@@ -1,9 +1,9 @@
 package org.example.assembly;
 
 
-import org.example.configuration.assembly.DefineFilterConfiguration;
-import org.example.configuration.assembly.IncludeConfiguration;
-import org.example.configuration.assembly.MainConfiguration;
+import org.example.configuration.ioc.assembly.DefineFilterConfiguration;
+import org.example.configuration.ioc.assembly.IncludeConfiguration;
+import org.example.configuration.ioc.assembly.MainConfiguration;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

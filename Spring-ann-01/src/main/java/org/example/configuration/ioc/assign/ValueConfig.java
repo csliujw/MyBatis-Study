@@ -1,4 +1,4 @@
-package org.example.configuration.assign;
+package org.example.configuration.ioc.assign;
 
 import org.example.pojo.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

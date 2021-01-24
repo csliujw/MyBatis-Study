@@ -6,7 +6,7 @@ public class Person {
     // 使用@Value赋值
     // 1 基本数值
     // 2 可以写SpEL， #{}，取出配置文件中的值
-    @Value("${person.name}")
+//    @Value("${person.name}")
     private String name;
     @Value("#{20-5}")
     private Integer age;

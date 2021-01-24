@@ -1,4 +1,4 @@
-package org.example.configuration.assembly;
+package org.example.configuration.ioc.assembly;
 
 import org.example.pojo.Person;
 import org.springframework.beans.factory.FactoryBean;

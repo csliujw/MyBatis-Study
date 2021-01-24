@@ -1,6 +1,6 @@
 package org.example.assembly;
 
-import org.example.configuration.assembly.LazyConfiguration;
+import org.example.configuration.ioc.assembly.LazyConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

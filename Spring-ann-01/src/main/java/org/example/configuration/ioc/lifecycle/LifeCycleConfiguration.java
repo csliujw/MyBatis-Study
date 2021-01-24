@@ -1,4 +1,4 @@
-package org.example.configuration.lifecycle;
+package org.example.configuration.ioc.lifecycle;
 
 import org.example.pojo.Car;
 import org.example.pojo.Car2;

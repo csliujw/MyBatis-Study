@@ -1,6 +1,6 @@
 package org.example.assembly;
 
-import org.example.configuration.assembly.FactoryBeanConfiguration;
+import org.example.configuration.ioc.assembly.FactoryBeanConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
