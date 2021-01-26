@@ -1,11 +1,15 @@
 package org.example.configuration.aop;
 
+import com.google.inject.internal.util.Join;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.*;
-import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-import java.util.stream.Stream;
+import java.util.Arrays;
 
 /**
  * AOP[动态代理]
@@ -53,6 +57,7 @@ public class MainConfigOfAOP {
 class MathCalculator {
     public int div(int i, int j) {
         System.out.println("div method");
+        int s = 2 / 0;
         return i / j;
     }
 }
@@ -70,8 +75,11 @@ class LogAspects {
     // 指定只切入某个方法 @Before("public int org.example.configuration.aop.MathCalculator.div(int,int)")
     // 指定切入该类的所有方法..任意多参数 @Before("public int org.example.configuration.aop.MathCalculator.*(..)")
     @Before("pointCut()")
+    // JoinPoint一定要出现在参数列表的第一位
     public void logStart(JoinPoint joinPoint) {
-        System.out.println("log Start " + joinPoint.getSignature());
+        Signature signature = joinPoint.getSignature();
+        Object[] args = joinPoint.getArgs();
+        System.out.println("log Start 的方法签名是" + signature + " 参数列表是：" + Arrays.asList(args));
     }
 
     @After("pointCut()")
@@ -79,13 +87,13 @@ class LogAspects {
         System.out.println("log End");
     }
 
-    @AfterReturning("pointCut()")
-    public void logRet() {
-        System.out.println("log Return");
+    @AfterReturning(value = "pointCut()", returning = "res")
+    public void logReturn(Object res) {
+        System.out.println("log Return, 运行结果是" + res);
     }
 
-    @AfterThrowing("pointCut()")
-    public void logException() {
-        System.out.println("log Exception");
+    @AfterThrowing(value = "pointCut()", throwing = "exc")
+    public void logException(JoinPoint joinPoint, Exception exc) {
+        System.out.println("log Exception, 方法签名是" + joinPoint.getSignature().getName() + ",异常是：" + exc);
     }
 }

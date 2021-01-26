@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/Tomcat" />
   </component>
   <component name="MavenProjectsManager">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/JavaSE/pom.xml" />
         <option value="$PROJECT_DIR$/Tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-ann-01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
       </list>
     </option>
   </component>
