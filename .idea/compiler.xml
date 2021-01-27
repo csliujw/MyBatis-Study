@@ -32,7 +32,7 @@
       <module name="MyBatis05" target="8" />
       <module name="Spring-ann-01" target="1.8" />
       <module name="Spring01" target="1.8" />
-      <module name="SpringMVC" target="1.5" />
+      <module name="SpringMVC" target="1.8" />
       <module name="Tomcat" target="8" />
     </bytecodeTargetLevel>
   </component>
