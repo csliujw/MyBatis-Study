@@ -1,4 +1,4 @@
-package cn.payphone.controller;
+package cn.payphone.controller.requestMapping;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

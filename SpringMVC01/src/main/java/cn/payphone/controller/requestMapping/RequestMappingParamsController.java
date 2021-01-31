@@ -1,4 +1,4 @@
-package cn.payphone.controller;
+package cn.payphone.controller.requestMapping;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -43,4 +43,5 @@ public class RequestMappingParamsController {
     public String t6() {
         return "mut2";
     }
+
 }
