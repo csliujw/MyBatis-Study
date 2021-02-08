@@ -2,18 +2,21 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/JDBC/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JavaSE/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Servlet3.0/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Servlet3.0/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-ann-01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-ann-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-ann/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-ann/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC/src/main/java/org/example/config/AppConfig.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC/src/main/java/org/example/controller/AsyncController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC01/src/main/java/cn/payphone/config/MyWebServletInitializer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC02/src/main/java/org/example/view/MyView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tomcat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tomcat/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

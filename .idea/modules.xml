@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaSE/JavaSE.iml" filepath="$PROJECT_DIR$/JavaSE/JavaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyBatis-Study.iml" filepath="$PROJECT_DIR$/.idea/MyBatis-Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis01/MyBatis01.iml" filepath="$PROJECT_DIR$/MyBatis01/MyBatis01.iml" />
@@ -12,10 +11,11 @@
       <module fileurl="file://$PROJECT_DIR$/MyBatis04/MyBatis04.iml" filepath="$PROJECT_DIR$/MyBatis04/MyBatis04.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis05/MyBatis05.iml" filepath="$PROJECT_DIR$/MyBatis05/MyBatis05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet3.0/Servlet3.0.iml" filepath="$PROJECT_DIR$/Servlet3.0/Servlet3.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-ann-01/Spring-ann-01.iml" filepath="$PROJECT_DIR$/Spring-ann-01/Spring-ann-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-ann/Spring-ann.iml" filepath="$PROJECT_DIR$/Spring-ann/Spring-ann.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring01/Spring01.iml" filepath="$PROJECT_DIR$/Spring01/Spring01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC01/SpringMVC01.iml" filepath="$PROJECT_DIR$/SpringMVC01/SpringMVC01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC02/SpringMVC02.iml" filepath="$PROJECT_DIR$/SpringMVC02/SpringMVC02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
     </modules>
   </component>

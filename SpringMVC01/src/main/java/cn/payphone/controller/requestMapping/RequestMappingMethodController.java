@@ -13,13 +13,13 @@ public class RequestMappingMethodController {
 
     @RequestMapping(path = {"/get"}, method = RequestMethod.GET)
     public String t1() {
-        return "GET Method";
+        return "GET sfMethod";
     }
 
     // 方法类型对不上会报错 405 方法不对应！
     @RequestMapping(path = {"/post"}, method = RequestMethod.POST)
     public String t2() {
-        return "POST Method";
+        return "POST Methosdfd";
     }
 
     @RequestMapping(path = {"/get&post"}, method = {RequestMethod.POST, RequestMethod.GET})

@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Servlet3.0" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC01" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC02" />
     <file type="web" url="file://$PROJECT_DIR$/Tomcat" />
   </component>
   <component name="MavenProjectsManager">
@@ -16,7 +17,6 @@
         <option value="$PROJECT_DIR$/MyBatis05/pom.xml" />
         <option value="$PROJECT_DIR$/JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb/pom.xml" />
-        <option value="$PROJECT_DIR$/JavaSE/pom.xml" />
         <option value="$PROJECT_DIR$/Tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-ann-01/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/SpringMVC-01/pom.xml" />
         <option value="$PROJECT_DIR$/Spring01/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-ann/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC02/pom.xml" />
       </list>
     </option>
   </component>
